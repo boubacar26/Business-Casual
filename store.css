@@ -62,10 +62,11 @@
         width: 100%;
         height: 250px;
         object-fit: cover;
+        margin-bottom: 20%;
     }
 
     #section2 .about_coffee {
-        width: 75%;
+        width: 93%;
     }
 
     .about_coffee h3 {
