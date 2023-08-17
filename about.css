@@ -24,6 +24,7 @@
     #section1 img{
         width: 100%;
         height: 250px;
+        object-fit: cover;
     }
 
     #section1 .about_coffee{
