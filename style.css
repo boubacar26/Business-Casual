@@ -1,0 +1,124 @@
+body{
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header h3{
+    color: #CB0D0D;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+    background-color: #0000008a;
+    padding: 3% 0;
+    margin: 0;
+}
+
+header h1{
+    color: white;
+    font-size: 76px;
+    font-weight: 200;
+    line-height: 93px;
+    background-color: #0000008a;
+    margin: 0;
+}
+
+nav{
+    background-color: #490909;
+    height: 124px;
+}
+
+.navbar-nav li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/*-------------- Section 1 --------------*/
+
+.div1{
+    background-color: #0000008a;
+    padding: 5% 0;
+}
+
+#section1{
+    display: flex;
+    position: relative;
+}
+
+.card1{
+    background-color: #F6E1C5;
+    width: 40%;
+    height: 300px;
+    padding: 4%;
+    margin-top: 7%;
+
+    position: relative;
+    z-index: 2;
+    left: 15%;
+}
+
+.card1 button{
+    background-color: #7B261A;
+    color: white;
+    border: none;
+    margin-left: 34%;
+    margin-top: 9%;
+    width: 100px;
+    height: 60px;
+}
+
+.card2{
+    width: 60%;
+    position: relative;
+    z-index: 1;
+}
+
+.card2 img{
+    width: 100%;
+}
+
+
+/*---------------- Section 2 --------------*/
+
+#section2{
+    background-color: #A5342BB0;
+    padding: 6%;
+    /* margin-bottom: 5%; */
+}
+
+#section2 .div2{
+    background-color: #F6E1C5;
+    width: 60%;
+    height: 350px;
+    padding: 6% 14%;
+    border: 6px double black;
+}
+
+#section2 h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#section2 h6{
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+#section2 p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/*----------------- Footer ------------------*/
+
+footer{
+    background-color: #311919;
+    color: white;
+    height: 100px;
+}
+
+footer p{
+    padding-top: 3%;
+}
